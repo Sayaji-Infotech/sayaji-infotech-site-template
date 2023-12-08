@@ -6,7 +6,7 @@
           <h2>{{ .Site.Params.footerTitle }}</h2>
         </div>
       </div>
-      <div class="col-lg-8 mx-auto">
+      <!-- <div class="col-lg-8 mx-auto">
         <form action="#" class="footer-subscribe-form">
           <div class="from-group">
             <div class="input-group">
@@ -42,7 +42,7 @@
             </div>
           </div>
         </form>
-      </div>
+      </div> -->
     </div>
     <div class="row">
       <div class="col-lg-4 col-md-4">
@@ -54,12 +54,6 @@
               {{ replace .Site.Params.copyright2   "{year}" now.Year | safeHTML }}
           </p>
           <ul class="footer-description-social">
-            <li>
-              <a href="{{ .Site.Params.social.facebook }}"><i class="ti-facebook"></i></a>
-            </li>
-            <li>
-              <a href="{{ .Site.Params.social.twitter }}"><i class="ti-twitter-alt"></i></a>
-            </li>
             <li>
               <a href="{{ .Site.Params.social.github }}"><i class="ti-github"></i></a>
             </li>
